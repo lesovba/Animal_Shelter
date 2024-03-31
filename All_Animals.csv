@@ -1,0 +1,16 @@
+animal_id,animal_name,animal_type,command,birth_date,animal_class,young_or_not
+1,Whiskers,Cat,Лови,2022-08-25,Domestic_Animals,Young
+2,Mittens,Cat,Гуляй,2019-03-12,Domestic_Animals,"Not Young"
+3,Snowball,Cat,Прятки,2016-12-30,Domestic_Animals,"Not Young"
+4,Buddy,Dog,Сидеть,2019-05-10,Domestic_Animals,"Not Young"
+5,Max,Dog,Фас,2020-02-15,Domestic_Animals,"Not Young"
+6,Rocky,Dog,Апорт,2018-11-20,Domestic_Animals,"Not Young"
+7,Nibbles,Hamster,Кружи,2018-06-21,Domestic_Animals,"Not Young"
+8,Squeaky,Hamster,Копай,2023-09-14,Domestic_Animals,"Not Young"
+9,Fluffy,Hamster,Беги,2020-03-02,Domestic_Animals,"Not Young"
+10,Thunder,Horse,Вперед,2015-04-17,Equines,"Not Young"
+11,Spirit,Horse,Прыгай,2016-09-28,Equines,"Not Young"
+12,Blaze,Horse,Галоп,2021-12-10,Equines,Young
+13,Eeyore,Donkey,Тяни,2016-03-12,Equines,"Not Young"
+14,Burrito,Donkey,Ешь,2017-10-05,Equines,"Not Young"
+15,Pedro,Donkey,"Иди сюда",2018-02-28,Equines,"Not Young"

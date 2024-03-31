@@ -1,0 +1,94 @@
+<mxfile host="Electron" modified="2024-03-24T12:30:46.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="opqX7M92zC7kSv39HqE1" version="23.1.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1052" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Animals" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="280" y="10" width="160" height="180" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KyGsaTEwU7uHS2h83enL-7" value="Порядковый номер ID (int)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="DSqMMtVqAfLA5oYRHE1d-6" value="Вид животного (String)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="58" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="DSqMMtVqAfLA5oYRHE1d-5" value="Команда (String)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="90" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="DSqMMtVqAfLA5oYRHE1d-2" value="Дата рождения (Date)" style="text;whiteSpace=wrap;html=1;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="126" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="Имя (String)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="154" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KyGsaTEwU7uHS2h83enL-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Pets" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120" y="240" width="160" height="110" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="Собака " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--8" value="Кошка " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="52" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="DSqMMtVqAfLA5oYRHE1d-0" value="&amp;nbsp;Хомяк" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="Pack Animals" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="440" y="240" width="160" height="110" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="Лошадь&#xa; &#xa;Верблюд &#xa;&#xa;Осел" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="KyGsaTEwU7uHS2h83enL-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.421;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.505;exitY=1.068;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--1" target="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="182" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KyGsaTEwU7uHS2h83enL-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.494;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.499;exitY=1.104;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--1" target="zkfFHV4jXpPFQw0GAbJ--13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="197" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KyGsaTEwU7uHS2h83enL-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.499;exitY=1.044;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="sourcePoint" />
+            <mxPoint x="519.6800000000001" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DdOoYsOWpYVhH-0ybpBr-0" value="Низкоуровневые таблицы по отдельным животным&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="440" width="560" height="140" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DdOoYsOWpYVhH-0ybpBr-1" value="Имя " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DdOoYsOWpYVhH-0ybpBr-0">
+          <mxGeometry y="26" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DdOoYsOWpYVhH-0ybpBr-2" value="Вид животного" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="DdOoYsOWpYVhH-0ybpBr-0">
+          <mxGeometry y="52" width="560" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="DdOoYsOWpYVhH-0ybpBr-3" value="Дата рождения" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DdOoYsOWpYVhH-0ybpBr-0">
+          <mxGeometry y="80" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DdOoYsOWpYVhH-0ybpBr-5" value="Команда" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DdOoYsOWpYVhH-0ybpBr-0">
+          <mxGeometry y="110" width="560" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
