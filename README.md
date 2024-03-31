@@ -1,4 +1,4 @@
-Список файлов и папок проекта Animal_Shelter в репозитории: 
+Список файлов и папок проекта 'Animal_Shelter' в репозитории: 
 
 1. Файлы и папки проекта JAVA 'Animal_Shelter' (реализация в IntelliJ IDEA CE). 
 2. Linux_commands_list_A.Golubev_2830_02-Mar-24.pdf - лог комманд, использованых для задания по Linux.
